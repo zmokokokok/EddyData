@@ -1,0 +1,21 @@
+{
+    "jobName": "zm_11476077",
+    "image": "192.168.193.253:5000/tensorflow:v1.9",
+    "authFile": "",
+    "dataDir": "$PAI_DEFAULT_FS_URI/data/datasets/eddy_data.tar",
+    "outputDir": "",
+    "codeDir": "$PAI_DEFAULT_FS_URI/Users/$PAI_USER_NAME/$PAI_USER_NAME~$PAI_JOB_NAME",
+    "virtualCluster": "default",
+    "gpuType": "geforce2080ti",
+    "retryCount": 0,
+    "taskRoles": [
+        {
+            "name": "task",
+            "taskNumber": 1,
+            "cpuNumber": 7,
+            "memoryMB": 12000,
+            "gpuNumber": 1,
+            "command": "cd $PAI_JOB_NAME && bash setup.sh"
+        }
+    ]
+}
