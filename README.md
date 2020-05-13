@@ -4,7 +4,7 @@ Keras implementation based on Tensorflow and dataset SCSE-Eddy for article "A De
 
 ### The Structure of Our FrameWork
 
-![756846887685](EddyData/structureforreadme.jpg)
+![756846887685](https://github.com/zmokokokok/EddyData/blob/master/resultforreadme.jpg)
 
 ### Example for Detection Result
 
