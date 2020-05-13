@@ -44,7 +44,7 @@ python3 trace.py
 
 
 
-#### Comparison of Number of Eddies Detected by Methods
+#### Comparison of Number of Eddies Detected by Different Methods
 
 | Methods | N-Cyclone | N-Anticyclone | N-All |
 | :-----: | :-------: | :-----------: | :---: |
