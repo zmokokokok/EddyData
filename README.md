@@ -1,2 +1,2 @@
 # EddyData
-Code and SCSESA-Eddy
+Code and SCSE-Eddy
