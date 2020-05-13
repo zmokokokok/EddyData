@@ -4,11 +4,11 @@ Keras implementation based on Tensorflow and dataset SCSE-Eddy for article "A De
 
 ### The Structure of Our FrameWork
 
-![structureforreadme.jpg](https://github.com/zmokokokok/EddyData/blob/master/structureforreadme.jpg)
+![structure.jpg](https://github.com/zmokokokok/EddyData/blob/master/example/structure.jpg)
 
 ### Example for Detection Result
 
-![resultforreadme.jpg](https://github.com/zmokokokok/EddyData/blob/master/resultforreadme.jpg)
+![result.jpg](https://github.com/zmokokokok/EddyData/blob/master/example/result.jpg)
 
 
 
@@ -30,7 +30,7 @@ store the detection results on your own path
 
 ### Example for Tracking Result
 
-![trackforreadme.jpg](https://github.com/zmokokokok/EddyData/blob/master/trackforreadme.jpg)
+![track.jpg](https://github.com/zmokokokok/EddyData/blob/master/example/track.jpg)
 
 
 
