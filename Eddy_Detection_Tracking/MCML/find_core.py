@@ -2,6 +2,10 @@ import cv2
 import numpy as np
 
 img = cv2.imread('G:/temporary/20161003origin.png', 0)
+img_ = np.expand_dims(img,3)
+a = (img_ > 0).astype(np.int)
+b = np.array([1, 0, 2]).reshape((1, 1, 3))
+c = (a * b).sum(axis=2)
 _, thresh = cv2.threshold(img, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
 cv2.medianBlur(img, ksize=5)
 image = cv2.Canny(img, threshold1=60, threshold2=90)
@@ -48,7 +52,4 @@ for i in contours:
     cv2.drawContours(image, [box], 0, (0, 255, 0), 2)
 cv2.imwrite('G:/temporary/20161003__.png', image)
 
-# exit()
-# cv2.imshow('contours', image)
-# cv2.waitKey(0)
 
