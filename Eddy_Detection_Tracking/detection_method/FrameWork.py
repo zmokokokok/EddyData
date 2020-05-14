@@ -630,7 +630,7 @@ plt.savefig('./eddydlv3net/testdata.png')
 #plt.show()
 #metrics on test dataset
 
-Seg_test_categor = np_utils.to_categorical(np.reshape(Seg_test[:,:,0], (730, 168*200)), 3) # our own data
+Seg_test_categor = np.reshape(Seg_test[:,:,0], (730, 168*200)) # our own data
 #print(Seg_test_categor.shape)
 preds = eddydlv3net.evaluate(SSH_test, Seg_test_categor)
 print('loss: %s,'%preds[0], 'accuracy: %s,'%preds[1], 'mean_dice_coef: %s,'%preds[2], 'weighted_mean_dice_coef: %s,'%preds[3],
