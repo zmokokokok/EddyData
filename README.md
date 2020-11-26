@@ -57,7 +57,7 @@ python3 trace.py
 
 ### Others
 
- Please refer to the citations in this paper for SCSE-Eddy dataset. 
+ Please refer to the citations in this paper(access address: https://doi.org/10.1109/TGRS.2020.3032523 or https://ieeexplore.ieee.org/document/9247537) for SCSE-Eddy dataset. 
  We will continuously update for researchers.
 
 
